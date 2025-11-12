@@ -34,7 +34,7 @@
     /*Configurações de Fontes */
     --font-family:"inter";
     --font-headline-1-size:64px;
-    --font-headline-2-size:336px;
+    --font-headline-2-size:36px;
     --font-headline-2-weight:600;
     --font-headline-4-size:20px;
     --font-body2-weight-regular:400;
@@ -43,4 +43,27 @@
 
 a {
     text-decoration: none;
+}
+
+p {
+    color: var(--color-neutral-Grey);
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    padding: 14px 32px;
+    border-radius: 4px;
+    align-self: flex-start;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.btn-primary a{
+    color: var(--color-neutral-White);
+}
+
+h2{
+    color: var(--color-neutral-D_Grey);
+    font-size: var(--font-headline-2-size);
+    font-weight: var(--font-headline-2-weight);
 }
